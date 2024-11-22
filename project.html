@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dream City</title>
+  <style>
+    body{
+    margin : 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+header{
+    background-color: #0099cc;
+    text-align: center;
+    padding: 20px 10px;
+    color:  white;
+}
+header h1{
+    margin: 0;
+    font-size: 2.5rem;
+}
+header p{
+    margin : 5px 0 0;
+    font-style: italic;
+}
+nav{
+    background-color: #006699;
+    padding : 10px;
+    text-align: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+section{
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+section h2{
+    color: #0099cc;
+    border-bottom: 2px solid #0099cc;
+    padding-bottom: 5px;
+
+}
+img{
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin : 20px 0;
+
+}
+th, td{
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+th{
+    background-color: #0099cc;
+    color: white;
+}
+ol, ul{
+    margin: 10px 20px;
+
+}
+ul ul{
+    margin-left : 20px;
+    list-style-type: circle;
+}
+form{
+    margin-top: 20px;
+
+}
+label{
+    display: block;
+    margin: 10px 0 5px;
+}
+input, select, textarea, button{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    background-color: #0099cc;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #0077aa;
+}
+input[type = "checkbox"]{
+    width: auto;
+    margin-right: 5px;
+}
+section#Quotes span{
+    font-style: italic;
+    color: #666;
+}
+address {
+    line-height: 1.8;
+
+}
+address a{
+    color: #0099cc;
+    text-decoration: none;
+}
+address a:hover{
+    color: #0077aa;
+    text-decoration: underline;
+}
+footer{
+    background-color: #006699;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+  </style>
+</head>
+<body>
+<header>
+    <h1>Atlantica</h1>
+    <p>The City of Ocean Dreams!</p>
+</header>
+    <nav>
+        <a href="">Descripition </a> 
+        <a href="">Attraction </a> 
+        <a href="">Statistics </a> 
+        <a href="">Feedback </a> 
+        <a href="">Quotes </a> 
+        <a href="">Contact </a> 
+    </nav>
+      
+    <section id="Descripition">
+    <h2>Discover Atlantica</h2>
+    <img src="https://images.trvl-media.com/lodging/36000000/35190000/35181800/35181792/829d723d.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill" alt="" height="250px">
+    <p>Atlantica, the city where the horizon merges the sky with the ocean, offering dreams a canvas as vast as the sea.</p>
+</section>
+
+<section id="Attraction">
+    <h2>Attraction</h2>
+    <h3>Main Attraction</h3>
+    <ol>
+        <li>Atlantis Tower</li>
+        <li>Deep Sea Muesum</li>
+        <li>The Oceanic Bridge</li>
+    </ol>
+    <h3>Local Favourites</h3>
+    <ul>
+        <li>Mermain's Street</li>
+        <li>Neptune's Diner</li>
+        <li>Atlantica Beaches
+            <ul>
+                <li>North Beach</li>
+                <li>Reef Bay</li>
+                <li>Mermaid Cove</li>
+            </ul>
+        </li>
+    </ul>
+</section>
+
+
+<section id="Statistics">
+    <h2>City Statistics</h2>
+    <table>
+        <tr>
+            <th>Attributes</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>Population</td>
+            <td>5 Millions</td>
+        </tr>
+        <tr>
+            <td>Landmark</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Parks</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>School</td>
+            <td>120</td>
+        </tr>
+        <tr>
+            <td>Beaches</td>
+            <td>7</td>
+        </tr>
+
+    </table>
+</section>
+
+
+<section id="Feedback">
+    <h2>Feedback</h2>
+    <form action="">
+    <label for="name">Name:</label>
+    <input type="text" id="name"><br>
+    <label for="">Email:</label>
+    <input type="email"><br>
+    <label for="">Age</label>
+    <input type="number" id="number"><br>
+    <label for="">Favourite Attraction</label>
+    <select name="" id="">
+        <option value="">Atlantis Tower</option>
+        <option value="">Deep Sea Muesum</option>
+        <option value="">The Oceanic Bridge</option>
+    </select><br>
+    <label for="">Comments:</label>
+    <textarea rows="5" cols="40" placeholder=""></textarea><br>
+    <label for="">Newsletter:</label>
+    <input type="checkbox"> Subscirbe to our Newsletter<br>
+    <button type="submit">Submit</button>
+</form>
+</section>
+
+<section id="Quotes">
+<h2>What Citizens Say</h2>
+<p><span>"Atlantica's beaches are paradise on earth, Nothing beats a sunset here!"</span>  -Alex</p>
+<p><span>"The Blend of modern skyscrapers and ancient oceanic history is mesmerizing"</span> -Isabelle</p>
+</section>
+
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <address>
+    <p>Atlantica tourism Office <br>
+     100 Ocean Drive, Atlantica,<br>
+     Email : <a href="info@atlantica.com">info@atlantica.com</a><br>
+     Phone : 123-456-7890
+
+    </address>
+</section>
+
+
+<footer>
+    <p>© 2023 Atlantica Tourism, Dive into Dreams!</p>
+</footer>
+
+
+</body>
+</html>
